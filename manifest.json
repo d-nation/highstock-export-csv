@@ -1,0 +1,27 @@
+{
+    "name": "Highstock-Export-CSV",
+    "version": "1.0.0",
+    "title": "Highstock - Export Chart Data To CSV",
+    "demo": [
+        "http://jsfiddle.net/dnation/8YPJp/"
+    ],
+    "author": {
+        "name": "Dustin Nation",
+        "url": "http://dustinnation.com"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/d-nation/highstock-export-csv/blob/master/LICENSE"
+        }
+    ],
+    "description": "This feature allows the user to export the chart data to a csv file. It is built off of the Export-CSV plugin by Torstein Honsi, but has been modified to work with Highstock. It has the optional ability to convert Highstock's x-Axis data to ISO strings and to include/exclude the 'Navigator' series.",
+    "keywords": [
+     "export",
+     "csv",
+     "highstock"
+    ],
+    "dependencies": {
+        "Highcharts": ">=3.0.0"
+    }
+}
